@@ -1,0 +1,113 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.frame{
+  position: relative;
+}
+
+.no-pad{
+  padding: 0px !important;
+}
+
+.no-margin{
+  margin: 0px !important;
+}
+
+.title-holder{
+  margin: 0px auto;
+  width: 820px;
+}
+
+.body-holder{
+  margin: 0px auto;
+  width: 820px;
+  padding: 0px;
+}
+
+.pad-top-title{
+  padding-top: 15px !important;
+}
+
+.cover{
+  border-radius: 0px 0px 10px 10px;
+}
+
+.profile-back{
+    height: 178px;
+    width: 178px;
+    position: absolute;
+    border-radius: 50%;
+    left: 582px;
+    top: 147px;
+}
+
+.profile{
+    height: 168px;
+    width: 168px;
+    margin: auto auto;
+}
+
+.card{
+  border-radius: 10px;
+}
+
+.btn-small{
+  margin: 0px 10px 5px !important;
+}
+
+.cta{
+  transform: scaleX(0.9);
+  margin: 0px -3px 5px !important;
+}
+
+@media screen and (max-width: 800px) {
+    .profile{
+      height: 100px;
+      width: 100px;
+  }
+
+    .profile-back{
+      height: 106px;
+      width: 106px;
+      position: absolute;
+      border-radius: 50%;
+      left: 10px;
+      top: 45px;
+  }
+
+  .title-holder{
+    margin: 0px auto;
+    width: 100%;
+  }
+
+  .pad-top-title{
+    padding-top: 10px !important;
+  }
+
+  .body-holder{
+    width: 100%;
+  }
+
+  .btn-small{
+    height: 28px;
+    line-height: 28px;
+    font-size: 13px;
+    margin: 0px 5px 5px !important;
+  }
+  .cta{
+    transform: scaleX(0.8);
+    margin: 0px -9px 0px !important;
+  }
+}
